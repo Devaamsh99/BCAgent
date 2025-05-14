@@ -13,7 +13,7 @@ It supports:
 
 ---
 
-## 🛠 Features
+##  Features
 
 | Category       | Feature                                                                 |
 |----------------|-------------------------------------------------------------------------|
@@ -23,7 +23,7 @@ It supports:
 |  GPT Agent    | Intent parsing, date recognition (`"tomorrow"`, `"Friday"`, etc.)       |
 |  Confirmations| Sends confirmation emails to TA and client                              |
 |  Logging      | Logs all meetings in SQLite (`schedule_log`)                            |
-| 🖥 CLI Chat     | Uses `rich` to provide chat-like interaction                            |
+| CLI Chat     | Uses `rich` to provide chat-like interaction                            |
 
 ---
 
