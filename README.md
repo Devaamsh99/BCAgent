@@ -1,6 +1,6 @@
-# 📘 Briefing Coordinator Assistant
+#  Briefing Coordinator Assistant
 
-## 🧠 Overview
+##  Overview
 
 This is a command-line assistant that automates client briefing call scheduling through Microsoft Outlook by parsing emails using Azure OpenAI and booking meetings using Microsoft Graph API.
 
@@ -13,21 +13,21 @@ It supports:
 
 ---
 
-## 🛠️ Features
+## 🛠 Features
 
 | Category       | Feature                                                                 |
 |----------------|-------------------------------------------------------------------------|
-| 📩 Email Intake | Fetch unread emails, extract client info via GPT                        |
-| 📅 Scheduling   | Schedule internal + external calls with available time slot detection   |
-| 🗑️ Deletion     | Delete scheduled meetings by client/date/type                           |
-| 🧠 GPT Agent    | Intent parsing, date recognition (`"tomorrow"`, `"Friday"`, etc.)       |
-| 📬 Confirmations| Sends confirmation emails to TA and client                              |
-| 📂 Logging      | Logs all meetings in SQLite (`schedule_log`)                            |
-| 🖥️ CLI Chat     | Uses `rich` to provide chat-like interaction                            |
+|  Email Intake | Fetch unread emails, extract client info via GPT                        |
+|  Scheduling   | Schedule internal + external calls with available time slot detection   |
+|  Deletion     | Delete scheduled meetings by client/date/type                           |
+|  GPT Agent    | Intent parsing, date recognition (`"tomorrow"`, `"Friday"`, etc.)       |
+|  Confirmations| Sends confirmation emails to TA and client                              |
+|  Logging      | Logs all meetings in SQLite (`schedule_log`)                            |
+| 🖥 CLI Chat     | Uses `rich` to provide chat-like interaction                            |
 
 ---
 
-## 🧱 Technologies Used
+##  Technologies Used
 
 - LangChain (Agent/Tool system)
 - Azure OpenAI (GPT-4)
@@ -37,7 +37,7 @@ It supports:
 
 ---
 
-## 🔧 Folder Structure
+##  Folder Structure
 
 ```
 📁/
@@ -51,7 +51,7 @@ It supports:
 
 ---
 
-## ✅ Setup Instructions
+## Setup Instructions
 
 1. **Install dependencies**
    ```bash
@@ -73,7 +73,7 @@ It supports:
 
 ---
 
-## 💬 Supported Prompts
+##  Supported Prompts
 
 - `schedule my meetings`
 - `when is my meeting with Hewlet Tech?`
@@ -84,7 +84,7 @@ It supports:
 
 ---
 
-## 🧩 System Architecture Diagram (Text)
+##  System Architecture Diagram (Text)
 
 ```
                    +-----------------------+
