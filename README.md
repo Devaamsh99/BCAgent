@@ -44,7 +44,7 @@ It supports:
 ├── agent_scheduler_graph.py      # Scheduling logic, GPT extraction, Graph calls
 ├── email_utils.py                # Email + calendar utility functions
 ├── db_utils.py                   # SQLite logic
-├── langchain_agent.py            # LangChain agent setup with tools and CLI
+├── main.py                       # LangChain Agent setup with tools and CLI
 ├── .env                          # API keys and config
 └── schedule_log.db               # Database of meetings
 ```
@@ -63,12 +63,12 @@ It supports:
    AZURE_API_KEY=...
    AZURE_ENDPOINT=https://<your-resource>.openai.azure.com
    DEPLOYMENT_NAME=gpt-4
-   SENDER_EMAIL=devaamshastro@gmail.com
+   SENDER_EMAIL= <sender-email-here>@<gmail.com>
    ```
 
 3. **Run the CLI agent**
    ```bash
-   python langchain_agent.py
+   python main.py
    ```
 
 ---
@@ -81,6 +81,7 @@ It supports:
 - `reschedule meeting with Viridian`
 - `show all meetings tomorrow`
 - `tell me a joke`
+- 'delete all meetings on next friday'
 
 ---
 
