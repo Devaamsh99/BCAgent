@@ -6,7 +6,6 @@ This is a command-line assistant that automates client briefing call scheduling 
 
 It supports:
 - Scheduling internal and external calls
-- Automatic rescheduling
 - Meeting querying and deletion
 - GPT-powered email parsing
 - Confirmation emails to clients and TA
